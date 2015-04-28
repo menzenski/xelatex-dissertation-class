@@ -1,4 +1,4 @@
-# University of Kansas Dissertation Class in XeLaTeX
+# University of Kansas Dissertation Class
 
 This repository contains materials to produce a dissertation meeting
 University of Kansas requirements using XeLaTeX.
