@@ -1,6 +1,6 @@
-% xekudiss v0.1
+% xekudiss v1.0
 % By Matthew Menzenski <menzenski@ku.edu>
-% Version 1.0 released % [not yet!]
+% Version 1.0 released 2015-04-28
 %
 % Adapted from the University of Kansas LaTeX class 
 % by Paul E. Johnson <pauljohn@ku.edu> (Which was itself 
@@ -12,7 +12,7 @@
 
 % ------------------ IDENTIFICATION ---------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{xekudiss.cls}[2015/04/18 v0.1 KU XeLaTeX Thesis Class]
+\ProvidesClass{xekudiss.cls}[2015/04/28 v1.0 KU XeLaTeX Thesis Class]
 
 % ------------------ INITIAL CODE -----------------------------------
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
