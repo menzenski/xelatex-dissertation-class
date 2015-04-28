@@ -1,2 +1,2 @@
-# xelatex-dissertation-class
-University of Kansas Dissertation Class in XeLaTeX
+# University of Kansas Dissertation Class in XeLaTeX
+
