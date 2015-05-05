@@ -10,6 +10,7 @@ changes:
 * XeLaTeX for better font and special character support
 * Several custom macros to better suit my own needs as a linguist and Slavist
 * More modular structure, with a smaller main file
+* Support for the LSA (Linguistics Society of America) bibliography style
 
 ## Notice
 
