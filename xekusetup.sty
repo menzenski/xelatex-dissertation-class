@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{xekusetup}[2015/04/18 Setup for XeLaTeX KU Dissertation]
+\ProvidesPackage{xekusetup}[2015/09/22 Setup for XeLaTeX KU Dissertation]
 
 % ------------------ PACKAGES ---------------------------------------
 
@@ -13,6 +13,11 @@
 \RequirePackage[bottom]{footmisc}
 \RequirePackage{setspace}
 \RequirePackage{booktabs}
+%\RequirePackage{makeidx}
+\RequirePackage{multind}
+\RequirePackage{multicol}
+\RequirePackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
 
 % ------------------ COLORS AND HYPERREF ----------------------------
 
@@ -28,7 +33,7 @@
   urlcolor=KUCrimson,
   citecolor=KUCrimson,
   filecolor=KUBlue,
-  pdftex,
+  %pdftex,
   hyperfootnotes=true,
   pdfpagelabels]{hyperref}
 
@@ -65,7 +70,7 @@
 \newcommand{\no}[1]{{\color{KUBlue} #1}} % note
 
 \newcommand{\tdg}[1]{\textdoublegrave{#1}} % double grave accent
-%\newcommand{\k}[1]{\textpolhook{#1}} % Polish ogonek
+\renewcommand{\k}[1]{\textpolhook{#1}} % Polish ogonek
 
 
 % ------------------ MACROS WITH NO ARGUMENTS -----------------------

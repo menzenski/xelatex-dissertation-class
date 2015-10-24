@@ -1,0 +1,70 @@
+\documentclass[12pt]{xekudiss}
+
+\title{Dissertation Title}
+\author{Firstname Middlename Lastname}
+\dept{Department of Slavic Languages \& Literatures}
+\degreetitle{Doctor of Philosophy}
+\papertype{Dissertation}
+\committee{MEMBER 1}{MEMBER 2}{MEMBER 3}{MEMBER 4}{}
+
+\makeatletter
+%% The following is OPTIONAL. Remove all 3 of the next 3 lines
+%% to leave dates blank. If dates are included, then both dates
+%% must be included.
+\@printd@testrue
+\datedefended{May 18, 2019}
+\dateapproved{August 18, 2019}
+\makeatother
+
+%% DUMMY TEXT
+\usepackage{lipsum}
+
+\graphicspath{{graphics/}}
+
+\makeindex{a} % alphabetical index
+\makeindex{v} % index of all Russian verbs used
+
+\begin{document}
+
+\begin{romanpages}
+
+\maketitle
+
+%% FRONTMATTER
+\input{frontmatter/abstract.tex}
+\input{frontmatter/acknowledgements.tex}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\end{romanpages}
+
+%% CHAPTERS
+\input{chapters/intro.tex}
+\input{chapters/priorliterature.tex}
+\input{chapters/methods.tex}
+\input{chapters/figuresandtables.tex}
+
+
+%% ENDMATTER
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{lsalike}
+\bibliography{xekudissbib.bib}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Indices}
+\printindex{alph}{Alphabetical Index}
+\printindex{verbs}{Index of Russian Verbs}
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Index of Russian Verbs}
+%\printindex{verbs}{Index of Russian Verbs}
+
+\end{document}
